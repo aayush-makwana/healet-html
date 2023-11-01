@@ -1,0 +1,16 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "block-no-empty": [
+      true,
+      {
+        "message": "Empty block not allowed",
+        "severity": "warning"
+      }
+    ],
+    "color-named": ["never"],
+    "color-no-invalid-hex": [true],
+    "selector-class-pattern": ["string"],
+    "selector-id-pattern": ["string"]
+  }
+}
